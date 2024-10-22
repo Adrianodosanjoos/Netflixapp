@@ -87,6 +87,7 @@ video{
     margin-bottom: -40px;
     left: 50px;
     bottom: -70px;
+   
 }
 
 .titulo-carrossel{
@@ -145,7 +146,7 @@ video{
        
         top: 35%;
         left: 5%;
-        width: 45%;
+        width: 100%;
        
     }
     
@@ -173,19 +174,22 @@ video{
     }
     
     .capa-descricao{
-     
-        display: none;
+     font-size: 10px;
+     width: 80%;
+     margin-top: 10px;
+        display:none ;
     }
 
 
     .imagem-carrossel{
         height: 50px;
         
+        
     }
     
     #carouselExampleControls{
       
-        top: 400px;
+        top: 500px;
         left: 10px;
         
         
@@ -198,7 +202,7 @@ video{
     }
 
     .button-som {
-        top: 80px;
+        top: 100px;
         position: fixed;
     }
 
@@ -214,10 +218,61 @@ video{
       
         margin: 30px auto;
         padding: 20px;
-        width: 90%;
+        width: 95%;
        
         
     }
 
+    @media screen and (max-width: 500px) {
+
+        .link-info{
+        
+         
+            font-size: 14px; 
+           
+         }
+
+         .titulo-carrossel{
+            font-size: 25px;
+         }
+         
+         #carouselExampleControls{
+      
+            top: 400px;
+            left: 10px;
+            
+            
+            
+            
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+             
+        .imagem-carrossel{
+            height: 40px;
+            
+            
+        }
+
+        #carouselExampleControls {
+            margin-top: -80px ;
+        }
+
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            margin-top: -5px;
+        }
+
+        .img-topo {
+         
+         height: 15px;
+         margin-top: 2px;
+        }
+    }
+
+  
+
+    }
+
     
-}
+
