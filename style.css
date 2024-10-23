@@ -222,6 +222,8 @@ video{
 
     @media screen and (max-width: 500px) {
 
+      
+
         .link-info{
         
          
@@ -262,6 +264,13 @@ video{
     }
 
     @media screen and (max-width: 400px) {
+           
+     
+
+        .button-som {
+          margin-right: 30%;
+          margin-top: -8%;
+        }
 
         #capa{
        
@@ -291,6 +300,7 @@ video{
          
          height: 15px;
          margin-top: 2px;
+         
         }
 
         .titulo-carrossel{
@@ -299,6 +309,15 @@ video{
             font-size: 25px;
             
          }
+
+         ul {
+            position:absolute;
+        }
+         
+
+         #avatar-topo {
+            margin-right: 90%;
+        }
     }
 
   
